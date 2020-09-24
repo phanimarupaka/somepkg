@@ -10,4 +10,5 @@ openAPI:
       x-k8s-cli:
         setter:
           name: gcloud.core.project
-          value: nginx-deployment
+          value: nginx-hello
+          isSet: true
