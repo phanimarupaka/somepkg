@@ -1,6 +1,6 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: nginx-deployment
+  name: nginx-deployment # {"$kpt-set":"gcloud.core.project"}
 spec:
   replicas: 3
