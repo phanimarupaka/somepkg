@@ -12,3 +12,8 @@ openAPI:
           name: gcloud.core.project
           value: nginx-hello
           isSet: true
+    io.k8s.cli.setters.replicas:
+      x-k8s-cli:
+        setter:
+          name: replicas
+          value: "3"
