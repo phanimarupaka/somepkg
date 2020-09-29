@@ -6,14 +6,14 @@ packageMetadata:
   shortDescription: sample description
 openAPI:
   definitions:
-    io.k8s.cli.setters.gcloud.core.project:
-      x-k8s-cli:
-        setter:
-          name: gcloud.core.project
-          value: nginx-hello
-          isSet: true
     io.k8s.cli.setters.replicas:
       x-k8s-cli:
         setter:
           name: replicas
           value: "3"
+    io.k8s.cli.setters.gcloud.core.project:
+      maxLength: 11
+      x-k8s-cli:
+        setter:
+          name: gcloud.core.project
+          value: nginx-hello
